@@ -17,12 +17,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require conquer/modal "*"
+$ php composer.phar require kadotafig/modal "*"
 ```
 or add
 
 ```
-"conquer/modal": "*"
+"kadotafig/modal": "*"
 ```
 
 to the ```require``` section of your `composer.json` file.
@@ -30,7 +30,7 @@ to the ```require``` section of your `composer.json` file.
 ## Usage
 Somewhere in the main layout
 ```php
-\conquer\modal\ModalForm::widget([
+\kadotafig\modal\ModalForm::widget([
     'selector' => '.modal-form',
 ]);
 ```
@@ -62,7 +62,7 @@ To add client options use `clientOptions` key. Available client options are: `id
 * Class key **adds** classes to html class attribute. 
 * Tabindex key **replaces** existing default tabindex html attribute (-1), when false, then no tabindex attribute appears.
 ```
-\conquer\modal\ModalForm::widget([
+\kadotafig\modal\ModalForm::widget([
     'selector' => '.modal-form',
     'clientOptions' => [
         'id' => 'sample-unique-id',
