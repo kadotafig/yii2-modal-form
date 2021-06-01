@@ -9,7 +9,7 @@ namespace kadotafig\modal;
 class ModalFormAsset4 extends \yii\web\AssetBundle
 {
 
-    public $sourcePath = '@conquer/modal/assets';
+    public $sourcePath = '@kadotafig/modal/assets';
 
     public $js = [
         'modal-form.js'
